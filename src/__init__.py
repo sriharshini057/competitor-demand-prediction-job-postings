@@ -1,0 +1,1 @@
+"""Competitor Demand Prediction package."""

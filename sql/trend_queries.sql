@@ -1,0 +1,1 @@
+-- TODO: Define queries for time-series aggregation, monthly/weekly posting trends, and hiring velocity.

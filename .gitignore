@@ -1,0 +1,63 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Testing cache
+.pytest_cache/
+
+# Environment variables
+.env
+
+# IDE / Editor settings
+.vscode/
+.idea/
+
+# Data files (keep directory structure via .gitkeep, ignore actual data)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/database/*.db
+data/database/*.sqlite3
+!data/database/.gitkeep
+
+# Output figures / reports
+reports/figures/*
+!reports/figures/.gitkeep
+
+# Include processed Microsoft datasets for project deliverables
+!data/processed/microsoft_jobs.csv
+!data/processed/microsoft_jobs_cleaned.csv
+!data/processed/microsoft_jobs_nlp.csv

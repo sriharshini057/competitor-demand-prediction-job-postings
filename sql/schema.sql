@@ -1,0 +1,1 @@
+-- TODO: Define database schemas for companies, job postings, extracted skills, and time-series records.
