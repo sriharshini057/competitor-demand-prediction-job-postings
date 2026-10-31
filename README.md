@@ -27,7 +27,7 @@ This project aims to analyze and forecast competitor hiring demand and skill req
 The primary data source is the publicly available [Luke Barousse Data Jobs repository](https://github.com/lukebarousse/data_jobs).
 
 > [!IMPORTANT]
-> Raw and processed datasets are intentionally excluded from Git version control via `.gitignore` to keep the repository lightweight and adhere to best data engineering practices.
+> Raw datasets and most processed data are excluded from Git via `.gitignore`. The named Microsoft processed CSV deliverables, including `microsoft_jobs_skills.csv`, are explicitly allowed and eligible for Git tracking.
 
 To configure the dataset locally:
 1. Download `data_jobs.csv` from the source repository.
@@ -97,17 +97,29 @@ python src/preprocessing/nlp_pipeline.py
 - **Output**: `data/processed/microsoft_jobs_nlp.csv` (498 records, 35 columns)
 - **Sprint Report**: `reports/sprint_03_report.md`
 
+### Sprint 4: NER and Skill Extraction Pipeline
+Applies spaCy-based Named Entity Recognition (ORG, GPE, PERSON, LOC, PRODUCT) and deterministic skill extraction via `PhraseMatcher` and token-level `Matcher`. Normalizes informal tech variants (e.g., `sklearn` → `Scikit-learn`, `postgres` → `PostgreSQL`, `ms sql server` → `Microsoft SQL Server`), groups competencies into 8 structured categories, deduplicates skills per posting, and serializes structured annotations to JSON:
+
+```bash
+python src/skills/extractor.py
+```
+- **Input**: `data/processed/microsoft_jobs_nlp.csv`
+- **Output**: `data/processed/microsoft_jobs_skills.csv` (498 records, 40 columns)
+- **Sprint Report**: `reports/sprint_04_report.md`
+
+The source dataset does not contain full narrative job descriptions, so the pipeline uses a composite text representation based on available structured fields when descriptions are unavailable. This includes `Company: Microsoft`; therefore, Microsoft being labeled `ORG` in all 498 rows is only a consistency check, not evidence that NER is accurate. Extracted `PERSON` labels are model detections and may include false positives; they are not verified real people.
+
 ---
 
 ## Running Automated Tests
 
-The project includes unit tests for data collection, filtering, cleaning, salary annualization, skill parsing, location normalization, and NLP preprocessing (including C#/C++ regression tests). Run the test suite using `pytest`:
+The project includes unit tests for data collection, filtering, cleaning, salary annualization, skill parsing, location normalization, NLP preprocessing, Named Entity Recognition, deterministic skill extraction, and pipeline integration. Run the test suite using `pytest`:
 
 ```bash
 python -m pytest -v
 ```
 
-All 87 unit tests across `tests/test_collector.py`, `tests/test_cleaner.py`, and `tests/test_nlp_pipeline.py` will run and validate the implementation.
+All 127 unit tests across `tests/test_collector.py`, `tests/test_cleaner.py`, `tests/test_nlp_pipeline.py`, `tests/test_ner_extractor.py`, `tests/test_skill_extractor.py`, and `tests/test_skills_pipeline.py` will run and validate the implementation.
 
 ---
 
@@ -116,7 +128,7 @@ All 87 unit tests across `tests/test_collector.py`, `tests/test_cleaner.py`, and
 1. **Sprint 1 — Data Collection**: Ingestion, strict competitor filtering, and validation (**Complete**).
 2. **Sprint 2 — Data Cleaning**: Missing value imputation, date decomposition, salary standardization, and location parsing (**Complete**).
 3. **Sprint 3 — NLP Preprocessing**: Text normalization, tokenization, lemmatization, and stop-word filtering across job titles and descriptions (**Complete**).
-4. **Sprint 4 — Skill Extraction**: Extracting domain-specific technical skills, tools, and competencies using dictionary matching and NLP phrase extraction (*Pending*).
+4. **Sprint 4 — Skill Extraction**: Extracting domain-specific technical skills, tools, and competencies using dictionary matching and NLP phrase extraction (**Complete**).
 5. **Sprint 5 — Database Storage**: Relational SQLite schema design, index optimization, and data modeling (*Pending*).
 6. **Sprint 6 — Feature Engineering**: Creating time-lag features, rolling averages, company-skill frequency matrices, and hiring velocity indicators (*Pending*).
 7. **Sprint 7 — Hiring Trend Analysis**: Evaluating temporal hiring trends and volume dynamics across companies and job roles using SQL and Pandas (*Pending*).
@@ -153,7 +165,7 @@ graph TD
 Competitor Demand Prediction Using Job Postings/
 ├── data/
 │   ├── raw/                  # Raw unprocessed job postings (ignored by Git)
-│   ├── processed/            # Cleaned and processed datasets (ignored by Git)
+│   ├── processed/            # Processed data (mostly ignored; named Microsoft CSV deliverables are allowed)
 │   └── database/             # SQLite database files (ignored by Git)
 ├── sql/                      # SQL schema and analysis queries
 │   ├── schema.sql
@@ -173,11 +185,15 @@ Competitor Demand Prediction Using Job Postings/
 │   ├── dataset_validation_report.md
 │   ├── sprint_02_report.md
 │   ├── sprint_03_report.md
+│   ├── sprint_04_report.md
 │   └── figures/
 ├── tests/                    # Automated test suite
 │   ├── test_collector.py
 │   ├── test_cleaner.py
-│   └── test_nlp_pipeline.py
+│   ├── test_nlp_pipeline.py
+│   ├── test_ner_extractor.py
+│   ├── test_skill_extractor.py
+│   └── test_skills_pipeline.py
 ├── requirements.txt          # Python dependencies
 └── README.md                 # Project documentation
 ```
@@ -188,5 +204,6 @@ Competitor Demand Prediction Using Job Postings/
 - **Sprint 1 (Data Ingestion & Filtering)**: Completed & Validated (`reports/dataset_validation_report.md`).
 - **Sprint 2 (Data Cleaning & Imputation)**: Completed & Validated (`reports/sprint_02_report.md`).
 - **Sprint 3 (NLP Preprocessing Pipeline)**: Completed & Validated (`reports/sprint_03_report.md`).
-- **Test Suite**: 67/67 passing (`python -m pytest -v`).
-- **Upcoming Deliverable**: Sprint 4 (Skill Extraction).
+- **Sprint 4 (NER & Skill Extraction)**: Completed & Validated (`reports/sprint_04_report.md`).
+- **Test Suite**: 127/127 passing (`python -m pytest -v`).
+- **Upcoming Deliverable**: Sprint 5 (Database Storage).

@@ -61,3 +61,4 @@ reports/figures/*
 !data/processed/microsoft_jobs.csv
 !data/processed/microsoft_jobs_cleaned.csv
 !data/processed/microsoft_jobs_nlp.csv
+!data/processed/microsoft_jobs_skills.csv
