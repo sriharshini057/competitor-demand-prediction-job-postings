@@ -110,6 +110,36 @@ python src/skills/extractor.py
 The source dataset does not contain full narrative job descriptions, so the pipeline uses a composite text representation based on available structured fields when descriptions are unavailable. This includes `Company: Microsoft`; therefore, Microsoft being labeled `ORG` in all 498 rows is only a consistency check, not evidence that NER is accurate. Extracted `PERSON` labels are model detections and may include false positives; they are not verified real people.
 
 ---
+### Sprint 5: Database Storage & SQL Analysis
+
+Implements a normalized SQLite database for storing Microsoft job postings, extracted skills, skill categories, and named entities. The database manager supports schema initialization, structured data loading, read-only SQL queries, and table-count inspection.
+
+**Database initialization and loading example:**
+
+```python
+import pandas as pd
+from src.database.db_manager import DatabaseManager
+
+manager = DatabaseManager(
+    db_path="data/database/readme_example.db"
+)
+manager.initialize_database()
+
+df = pd.read_csv("data/processed/microsoft_jobs_skills.csv")
+stats = manager.load_dataframe(df)
+
+print(stats)
+print(manager.get_table_counts())
+```
+
+- **Input**: `data/processed/microsoft_jobs_skills.csv`
+- **Database**: `data/database/competitor_demand.db`
+- **Schema**: `sql/schema.sql`
+- **Analysis queries**: `sql/competitor_queries.sql`, `sql/trend_queries.sql`
+- **Sprint Report**: `reports/sprint_05_report.md`
+- **Validation**: 20/20 SQL queries passed; database integrity and foreign-key checks passed.
+
+**Important:** Database loading is a one-time operation for a populated database. The loader rejects duplicate loads rather than overwriting existing job postings. Use a fresh database path when performing a new import.
 
 ## Running Automated Tests
 
@@ -119,7 +149,7 @@ The project includes unit tests for data collection, filtering, cleaning, salary
 python -m pytest -v
 ```
 
-All 127 unit tests across `tests/test_collector.py`, `tests/test_cleaner.py`, `tests/test_nlp_pipeline.py`, `tests/test_ner_extractor.py`, `tests/test_skill_extractor.py`, and `tests/test_skills_pipeline.py` will run and validate the implementation.
+All 169 automated tests pass across the project, including database tests in `tests/test_database.py`.
 
 ---
 
@@ -129,7 +159,7 @@ All 127 unit tests across `tests/test_collector.py`, `tests/test_cleaner.py`, `t
 2. **Sprint 2 — Data Cleaning**: Missing value imputation, date decomposition, salary standardization, and location parsing (**Complete**).
 3. **Sprint 3 — NLP Preprocessing**: Text normalization, tokenization, lemmatization, and stop-word filtering across job titles and descriptions (**Complete**).
 4. **Sprint 4 — Skill Extraction**: Extracting domain-specific technical skills, tools, and competencies using dictionary matching and NLP phrase extraction (**Complete**).
-5. **Sprint 5 — Database Storage**: Relational SQLite schema design, index optimization, and data modeling (*Pending*).
+5. **Sprint 5 — Database Storage & SQL Analysis**: Relational SQLite schema design, normalized data storage, indexing, and SQL-based Microsoft skill-demand and hiring trend analysis (**Complete**).
 6. **Sprint 6 — Feature Engineering**: Creating time-lag features, rolling averages, company-skill frequency matrices, and hiring velocity indicators (*Pending*).
 7. **Sprint 7 — Hiring Trend Analysis**: Evaluating temporal hiring trends and volume dynamics across companies and job roles using SQL and Pandas (*Pending*).
 8. **Sprint 8 — Competitor Comparison**: Benchmarking competitor profiles, tech stack overlap, and talent acquisition priorities (*Pending*).
@@ -166,7 +196,7 @@ Competitor Demand Prediction Using Job Postings/
 ├── data/
 │   ├── raw/                  # Raw unprocessed job postings (ignored by Git)
 │   ├── processed/            # Processed data (mostly ignored; named Microsoft CSV deliverables are allowed)
-│   └── database/             # SQLite database files (ignored by Git)
+│   └── database/             # SQLite database and storage deliverables
 ├── sql/                      # SQL schema and analysis queries
 │   ├── schema.sql
 │   ├── competitor_queries.sql
@@ -186,6 +216,7 @@ Competitor Demand Prediction Using Job Postings/
 │   ├── sprint_02_report.md
 │   ├── sprint_03_report.md
 │   ├── sprint_04_report.md
+│   ├── sprint_05_report.md
 │   └── figures/
 ├── tests/                    # Automated test suite
 │   ├── test_collector.py
@@ -193,7 +224,8 @@ Competitor Demand Prediction Using Job Postings/
 │   ├── test_nlp_pipeline.py
 │   ├── test_ner_extractor.py
 │   ├── test_skill_extractor.py
-│   └── test_skills_pipeline.py
+│   ├── test_skills_pipeline.py
+│   └── test_database.py
 ├── requirements.txt          # Python dependencies
 └── README.md                 # Project documentation
 ```
@@ -201,9 +233,12 @@ Competitor Demand Prediction Using Job Postings/
 ---
 
 ## Status
+
 - **Sprint 1 (Data Ingestion & Filtering)**: Completed & Validated (`reports/dataset_validation_report.md`).
 - **Sprint 2 (Data Cleaning & Imputation)**: Completed & Validated (`reports/sprint_02_report.md`).
 - **Sprint 3 (NLP Preprocessing Pipeline)**: Completed & Validated (`reports/sprint_03_report.md`).
 - **Sprint 4 (NER & Skill Extraction)**: Completed & Validated (`reports/sprint_04_report.md`).
-- **Test Suite**: 127/127 passing (`python -m pytest -v`).
-- **Upcoming Deliverable**: Sprint 5 (Database Storage).
+- **Sprint 5 (Database Storage & SQL Analysis)**: Completed & Validated (`reports/sprint_05_report.md`).
+- **Database**: SQLite with 8 application tables and 498 Microsoft job postings.
+- **SQL Analysis**: 20/20 queries passed validation.
+- **Test Suite**: 169/169 tests passing (`python -m pytest -q`).

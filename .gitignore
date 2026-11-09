@@ -50,6 +50,7 @@ data/raw/*
 data/processed/*
 !data/processed/.gitkeep
 data/database/*.db
+!data/database/competitor_demand.db
 data/database/*.sqlite3
 !data/database/.gitkeep
 
