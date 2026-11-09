@@ -160,8 +160,8 @@ All 169 automated tests pass across the project, including database tests in `te
 3. **Sprint 3 — NLP Preprocessing**: Text normalization, tokenization, lemmatization, and stop-word filtering across job titles and descriptions (**Complete**).
 4. **Sprint 4 — Skill Extraction**: Extracting domain-specific technical skills, tools, and competencies using dictionary matching and NLP phrase extraction (**Complete**).
 5. **Sprint 5 — Database Storage & SQL Analysis**: Relational SQLite schema design, normalized data storage, indexing, and SQL-based Microsoft skill-demand and hiring trend analysis (**Complete**).
-6. **Sprint 6 — Feature Engineering**: Creating time-lag features, rolling averages, company-skill frequency matrices, and hiring velocity indicators (*Pending*).
-7. **Sprint 7 — Hiring Trend Analysis**: Evaluating temporal hiring trends and volume dynamics across companies and job roles using SQL and Pandas (*Pending*).
+6. **Sprint 6 — Feature Engineering**: Creating time-lag features, rolling averages, company-skill frequency matrices, and hiring velocity indicators (**Complete**).
+7. **Sprint 7 — Exploratory Analysis and Demand Insights**: Analyzing job-role demand, geographic distribution, work arrangements, employment types, salary distribution, skill demand, and weekly skill trends using Pandas, Matplotlib, and Seaborn (**Complete**).
 8. **Sprint 8 — Competitor Comparison**: Benchmarking competitor profiles, tech stack overlap, and talent acquisition priorities (*Pending*).
 9. **Sprint 9 — Demand Forecasting**: Building time-series and regression models (via scikit-learn) to predict future hiring demand by competitor and role (*Pending*).
 10. **Sprint 10 — Company Similarity Scoring**: Computing vector similarity (e.g., Cosine Similarity) and clustering competitor profiles based on skill footprint and hiring distributions (*Pending*).
@@ -240,9 +240,10 @@ Competitor Demand Prediction Using Job Postings/
 - **Sprint 4 (NER & Skill Extraction)**: Completed & Validated (`reports/sprint_04_report.md`).
 - **Sprint 5 (Database Storage & SQL Analysis)**: Completed & Validated (`reports/sprint_05_report.md`).
 - **Sprint 6 (Feature Engineering)**: Completed & Validated (`reports/sprint_06_report.md`).
+- **Sprint 7 (Exploratory Analysis and Demand Insights)**: Completed and Validated (`reports/sprint_07/demand_insights.md`).
 - **Database**: SQLite with 8 application tables and 498 Microsoft job postings.
 - **SQL Analysis**: 20/20 queries passed validation.
-- **Test Suite**: 180/180 tests passing (`python -m pytest -q`).
+- **Test Suite**: 183/183 tests passing (`python -m pytest -q`).
 
 ## Sprint 6 Deliverables
 
@@ -253,3 +254,12 @@ Competitor Demand Prediction Using Job Postings/
 - `reports/sprint_06_report.md` - Sprint 6 implementation and validation report.
 
 **Sprint 6 Validation:** 498 job postings accounted for, no duplicate weeks or week-skill pairs, and all 180 project tests passing.
+
+## Sprint 7 Deliverables
+
+- `src/analysis/exploratory_analysis.py` - Exploratory analysis implementation.
+- `tests/test_exploratory_analysis.py` - 3 automated analysis tests.
+- `outputs/sprint_07/` - 8 CSV analysis outputs and 7 PNG visualizations.
+- `reports/sprint_07/demand_insights.md` - Sprint 7 demand insights report.
+
+**Sprint 7 Validation:** Analysis outputs verified against the report, 260 weekly skill-trend records generated, and all 183 project tests passing.

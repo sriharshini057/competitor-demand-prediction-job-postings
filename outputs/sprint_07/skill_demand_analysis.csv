@@ -1,0 +1,48 @@
+Skill,Posting Count,Demand Percentage
+Microsoft Azure,243,48.8
+Python,175,35.14
+SQL,148,29.72
+C#,141,28.31
+Java,104,20.88
+Apache Spark,101,20.28
+C++,77,15.46
+Hadoop,61,12.25
+Power BI,57,11.45
+Databricks,51,10.24
+JavaScript,40,8.03
+AWS,33,6.63
+PyTorch,31,6.22
+Kubernetes,28,5.62
+TensorFlow,27,5.42
+Tableau,24,4.82
+Docker,19,3.82
+Excel,19,3.82
+Microsoft SQL Server,19,3.82
+Linux,18,3.61
+Scala,18,3.61
+MongoDB,18,3.61
+Google Cloud Platform,18,3.61
+Kafka,17,3.41
+Artificial Intelligence,16,3.21
+Snowflake,15,3.01
+NoSQL,14,2.81
+Redis,13,2.61
+Cassandra,12,2.41
+MySQL,12,2.41
+Oracle,11,2.21
+DAX,10,2.01
+PostgreSQL,10,2.01
+Scikit-learn,9,1.81
+Git,9,1.81
+TypeScript,9,1.81
+Pandas,9,1.81
+Airflow,8,1.61
+GitHub,8,1.61
+Machine Learning,8,1.61
+PySpark,6,1.2
+Business Intelligence,5,1.0
+Keras,5,1.0
+NumPy,4,0.8
+Jenkins,3,0.6
+Matplotlib,2,0.4
+Power Query,1,0.2
