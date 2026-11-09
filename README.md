@@ -239,6 +239,17 @@ Competitor Demand Prediction Using Job Postings/
 - **Sprint 3 (NLP Preprocessing Pipeline)**: Completed & Validated (`reports/sprint_03_report.md`).
 - **Sprint 4 (NER & Skill Extraction)**: Completed & Validated (`reports/sprint_04_report.md`).
 - **Sprint 5 (Database Storage & SQL Analysis)**: Completed & Validated (`reports/sprint_05_report.md`).
+- **Sprint 6 (Feature Engineering)**: Completed & Validated (`reports/sprint_06_report.md`).
 - **Database**: SQLite with 8 application tables and 498 Microsoft job postings.
 - **SQL Analysis**: 20/20 queries passed validation.
-- **Test Suite**: 169/169 tests passing (`python -m pytest -q`).
+- **Test Suite**: 180/180 tests passing (`python -m pytest -q`).
+
+## Sprint 6 Deliverables
+
+- `src/features/feature_builder.py` - Feature engineering implementation.
+- `tests/test_feature_builder.py` - 11 automated feature engineering tests.
+- `data/processed/weekly_demand_features.csv` - 52 weekly demand observations with 12 columns.
+- `data/processed/weekly_skill_demand.csv` - 801 weekly skill-demand records covering 47 unique skills.
+- `reports/sprint_06_report.md` - Sprint 6 implementation and validation report.
+
+**Sprint 6 Validation:** 498 job postings accounted for, no duplicate weeks or week-skill pairs, and all 180 project tests passing.

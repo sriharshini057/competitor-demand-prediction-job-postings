@@ -48,6 +48,8 @@ ENV/
 data/raw/*
 !data/raw/.gitkeep
 data/processed/*
+!data/processed/weekly_demand_features.csv
+!data/processed/weekly_skill_demand.csv
 !data/processed/.gitkeep
 data/database/*.db
 !data/database/competitor_demand.db
