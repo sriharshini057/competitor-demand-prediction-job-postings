@@ -1,0 +1,41 @@
+company_name,job_title_short,posting_count,company_total_postings,role_demand_pct
+Accenture,Data Scientist,35,68,51.47
+Accenture,Data Engineer,15,68,22.06
+Accenture,Senior Data Analyst,8,68,11.76
+Accenture,Data Analyst,6,68,8.82
+Accenture,Business Analyst,1,68,1.47
+Accenture,Cloud Engineer,1,68,1.47
+Accenture,Senior Data Scientist,1,68,1.47
+Accenture,Software Engineer,1,68,1.47
+Amazon,Data Engineer,57,122,46.72
+Amazon,Data Analyst,19,122,15.57
+Amazon,Business Analyst,18,122,14.75
+Amazon,Data Scientist,14,122,11.48
+Amazon,Software Engineer,6,122,4.92
+Amazon,Senior Data Analyst,3,122,2.46
+Amazon,Senior Data Scientist,3,122,2.46
+Amazon,Machine Learning Engineer,1,122,0.82
+Amazon,Senior Data Engineer,1,122,0.82
+Deloitte,Data Engineer,50,153,32.68
+Deloitte,Data Scientist,41,153,26.8
+Deloitte,Data Analyst,26,153,16.99
+Deloitte,Senior Data Analyst,14,153,9.15
+Deloitte,Business Analyst,7,153,4.58
+Deloitte,Senior Data Scientist,6,153,3.92
+Deloitte,Cloud Engineer,4,153,2.61
+Deloitte,Software Engineer,3,153,1.96
+Deloitte,Machine Learning Engineer,1,153,0.65
+Deloitte,Senior Data Engineer,1,153,0.65
+IBM,Data Engineer,287,358,80.17
+IBM,Data Scientist,51,358,14.25
+IBM,Data Analyst,10,358,2.79
+IBM,Senior Data Scientist,8,358,2.23
+IBM,Business Analyst,1,358,0.28
+IBM,Senior Data Analyst,1,358,0.28
+Microsoft,Data Scientist,55,115,47.83
+Microsoft,Data Engineer,21,115,18.26
+Microsoft,Software Engineer,17,115,14.78
+Microsoft,Senior Data Scientist,11,115,9.57
+Microsoft,Data Analyst,6,115,5.22
+Microsoft,Senior Data Engineer,3,115,2.61
+Microsoft,Machine Learning Engineer,2,115,1.74

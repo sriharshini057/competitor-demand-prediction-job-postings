@@ -1,0 +1,245 @@
+company_name,job_country,posting_count,company_total_postings,country_demand_pct
+Accenture,Poland,202,1699,11.89
+Accenture,Argentina,135,1699,7.95
+Accenture,United States,126,1699,7.42
+Accenture,Costa Rica,122,1699,7.18
+Accenture,Spain,101,1699,5.94
+Accenture,Chile,87,1699,5.12
+Accenture,Colombia,84,1699,4.94
+Accenture,Italy,82,1699,4.83
+Accenture,Mexico,74,1699,4.36
+Accenture,India,68,1699,4.0
+Accenture,Philippines,66,1699,3.88
+Accenture,Malaysia,65,1699,3.83
+Accenture,Singapore,41,1699,2.41
+Accenture,Saudi Arabia,38,1699,2.24
+Accenture,Australia,33,1699,1.94
+Accenture,Portugal,32,1699,1.88
+Accenture,Austria,30,1699,1.77
+Accenture,Netherlands,25,1699,1.47
+Accenture,United Arab Emirates,25,1699,1.47
+Accenture,Romania,24,1699,1.41
+Accenture,Brazil,20,1699,1.18
+Accenture,Ireland,20,1699,1.18
+Accenture,South Africa,19,1699,1.12
+Accenture,Belgium,17,1699,1.0
+Accenture,China,16,1699,0.94
+Accenture,Czechia,16,1699,0.94
+Accenture,France,14,1699,0.82
+Accenture,Switzerland,13,1699,0.77
+Accenture,Germany,12,1699,0.71
+Accenture,Sudan,12,1699,0.71
+Accenture,Denmark,10,1699,0.59
+Accenture,United Kingdom,10,1699,0.59
+Accenture,Finland,9,1699,0.53
+Accenture,Indonesia,7,1699,0.41
+Accenture,Norway,7,1699,0.41
+Accenture,Canada,5,1699,0.29
+Accenture,Thailand,5,1699,0.29
+Accenture,Mauritius,4,1699,0.24
+Accenture,Ecuador,3,1699,0.18
+Accenture,Sweden,3,1699,0.18
+Accenture,Turkey,3,1699,0.18
+Accenture,Greece,2,1699,0.12
+Accenture,Hong Kong,2,1699,0.12
+Accenture,New Zealand,2,1699,0.12
+Accenture,Hungary,1,1699,0.06
+Accenture,Japan,1,1699,0.06
+Accenture,Kazakhstan,1,1699,0.06
+Accenture,Luxembourg,1,1699,0.06
+Accenture,Namibia,1,1699,0.06
+Accenture,Puerto Rico,1,1699,0.06
+Accenture,Slovakia,1,1699,0.06
+Accenture,Sri Lanka,1,1699,0.06
+Amazon,United States,334,1270,26.3
+Amazon,India,122,1270,9.61
+Amazon,Ireland,77,1270,6.06
+Amazon,Luxembourg,65,1270,5.12
+Amazon,United Kingdom,63,1270,4.96
+Amazon,Sudan,53,1270,4.17
+Amazon,Japan,43,1270,3.39
+Amazon,Spain,43,1270,3.39
+Amazon,Mexico,39,1270,3.07
+Amazon,Australia,38,1270,2.99
+Amazon,United Arab Emirates,34,1270,2.68
+Amazon,Canada,26,1270,2.05
+Amazon,Italy,22,1270,1.73
+Amazon,Costa Rica,21,1270,1.65
+Amazon,South Korea,21,1270,1.65
+Amazon,France,20,1270,1.57
+Amazon,Malaysia,20,1270,1.57
+Amazon,China,19,1270,1.5
+Amazon,Romania,19,1270,1.5
+Amazon,Brazil,18,1270,1.42
+Amazon,Germany,18,1270,1.42
+Amazon,Israel,14,1270,1.1
+Amazon,Singapore,14,1270,1.1
+Amazon,Thailand,14,1270,1.1
+Amazon,Hong Kong,13,1270,1.02
+Amazon,Jordan,11,1270,0.87
+Amazon,Philippines,10,1270,0.79
+Amazon,Slovakia,10,1270,0.79
+Amazon,Austria,8,1270,0.63
+Amazon,Netherlands,8,1270,0.63
+Amazon,Poland,8,1270,0.63
+Amazon,Saudi Arabia,8,1270,0.63
+Amazon,Sweden,6,1270,0.47
+Amazon,Bahrain,5,1270,0.39
+Amazon,Indonesia,4,1270,0.31
+Amazon,Switzerland,4,1270,0.31
+Amazon,Belgium,3,1270,0.24
+Amazon,Czechia,3,1270,0.24
+Amazon,Croatia,2,1270,0.16
+Amazon,Denmark,2,1270,0.16
+Amazon,South Africa,2,1270,0.16
+Amazon,Belarus,1,1270,0.08
+Amazon,Kenya,1,1270,0.08
+Amazon,Portugal,1,1270,0.08
+Amazon,Puerto Rico,1,1270,0.08
+Amazon,Taiwan,1,1270,0.08
+Amazon,Vietnam,1,1270,0.08
+Deloitte,United States,927,1694,54.72
+Deloitte,India,153,1694,9.03
+Deloitte,Sudan,119,1694,7.02
+Deloitte,Germany,81,1694,4.78
+Deloitte,Italy,40,1694,2.36
+Deloitte,South Africa,30,1694,1.77
+Deloitte,Australia,29,1694,1.71
+Deloitte,Spain,28,1694,1.65
+Deloitte,Portugal,26,1694,1.53
+Deloitte,Canada,18,1694,1.06
+Deloitte,France,18,1694,1.06
+Deloitte,Greece,15,1694,0.89
+Deloitte,Luxembourg,15,1694,0.89
+Deloitte,United Kingdom,14,1694,0.83
+Deloitte,Hong Kong,12,1694,0.71
+Deloitte,Poland,12,1694,0.71
+Deloitte,Malaysia,11,1694,0.65
+Deloitte,Czechia,10,1694,0.59
+Deloitte,Morocco,10,1694,0.59
+Deloitte,Austria,9,1694,0.53
+Deloitte,Hungary,9,1694,0.53
+Deloitte,Netherlands,9,1694,0.53
+Deloitte,Belgium,8,1694,0.47
+Deloitte,Chile,8,1694,0.47
+Deloitte,Mexico,8,1694,0.47
+Deloitte,Saudi Arabia,8,1694,0.47
+Deloitte,Switzerland,8,1694,0.47
+Deloitte,Puerto Rico,7,1694,0.41
+Deloitte,Israel,6,1694,0.35
+Deloitte,Romania,6,1694,0.35
+Deloitte,Bulgaria,5,1694,0.3
+Deloitte,United Arab Emirates,5,1694,0.3
+Deloitte,New Zealand,4,1694,0.24
+Deloitte,Philippines,4,1694,0.24
+Deloitte,Albania,3,1694,0.18
+Deloitte,Indonesia,3,1694,0.18
+Deloitte,Dominican Republic,2,1694,0.12
+Deloitte,Ireland,2,1694,0.12
+Deloitte,Jordan,2,1694,0.12
+Deloitte,Singapore,2,1694,0.12
+Deloitte,Denmark,1,1694,0.06
+Deloitte,Egypt,1,1694,0.06
+Deloitte,Finland,1,1694,0.06
+Deloitte,Kenya,1,1694,0.06
+Deloitte,Lithuania,1,1694,0.06
+Deloitte,Thailand,1,1694,0.06
+Deloitte,Ukraine,1,1694,0.06
+Deloitte,Vietnam,1,1694,0.06
+IBM,India,358,1289,27.77
+IBM,United States,148,1289,11.48
+IBM,Mexico,97,1289,7.53
+IBM,Costa Rica,80,1289,6.21
+IBM,Italy,50,1289,3.88
+IBM,Romania,40,1289,3.1
+IBM,Singapore,36,1289,2.79
+IBM,Philippines,34,1289,2.64
+IBM,Brazil,33,1289,2.56
+IBM,Chile,31,1289,2.4
+IBM,France,26,1289,2.02
+IBM,Canada,25,1289,1.94
+IBM,Egypt,24,1289,1.86
+IBM,Morocco,22,1289,1.71
+IBM,Germany,20,1289,1.55
+IBM,Japan,16,1289,1.24
+IBM,Denmark,13,1289,1.01
+IBM,United Kingdom,13,1289,1.01
+IBM,Argentina,12,1289,0.93
+IBM,Australia,12,1289,0.93
+IBM,Israel,12,1289,0.93
+IBM,Poland,12,1289,0.93
+IBM,Saudi Arabia,12,1289,0.93
+IBM,Sudan,12,1289,0.93
+IBM,China,11,1289,0.85
+IBM,Greece,10,1289,0.78
+IBM,Taiwan,10,1289,0.78
+IBM,Thailand,10,1289,0.78
+IBM,Ireland,9,1289,0.7
+IBM,Portugal,9,1289,0.7
+IBM,South Africa,9,1289,0.7
+IBM,Hong Kong,8,1289,0.62
+IBM,Czechia,7,1289,0.54
+IBM,Pakistan,7,1289,0.54
+IBM,Switzerland,7,1289,0.54
+IBM,Belgium,6,1289,0.47
+IBM,Spain,6,1289,0.47
+IBM,Slovakia,5,1289,0.39
+IBM,Turkey,5,1289,0.39
+IBM,United Arab Emirates,5,1289,0.39
+IBM,Lithuania,4,1289,0.31
+IBM,Netherlands,4,1289,0.31
+IBM,Hungary,3,1289,0.23
+IBM,Bulgaria,2,1289,0.16
+IBM,Colombia,2,1289,0.16
+IBM,Croatia,2,1289,0.16
+IBM,Indonesia,2,1289,0.16
+IBM,New Zealand,2,1289,0.16
+IBM,Austria,1,1289,0.08
+IBM,Malaysia,1,1289,0.08
+IBM,Norway,1,1289,0.08
+IBM,Peru,1,1289,0.08
+IBM,Uruguay,1,1289,0.08
+IBM,Vietnam,1,1289,0.08
+Microsoft,India,115,498,23.09
+Microsoft,United States,60,498,12.05
+Microsoft,China,46,498,9.24
+Microsoft,Ireland,32,498,6.43
+Microsoft,Costa Rica,31,498,6.22
+Microsoft,Egypt,25,498,5.02
+Microsoft,Israel,22,498,4.42
+Microsoft,Australia,14,498,2.81
+Microsoft,Kenya,13,498,2.61
+Microsoft,Serbia,12,498,2.41
+Microsoft,Sudan,12,498,2.41
+Microsoft,Estonia,10,498,2.01
+Microsoft,Netherlands,9,498,1.81
+Microsoft,Spain,9,498,1.81
+Microsoft,Canada,7,498,1.41
+Microsoft,Jordan,6,498,1.2
+Microsoft,Mexico,6,498,1.2
+Microsoft,Singapore,6,498,1.2
+Microsoft,United Kingdom,5,498,1.0
+Microsoft,Vietnam,5,498,1.0
+Microsoft,Czechia,4,498,0.8
+Microsoft,Japan,4,498,0.8
+Microsoft,Norway,4,498,0.8
+Microsoft,Portugal,4,498,0.8
+Microsoft,Romania,4,498,0.8
+Microsoft,South Africa,4,498,0.8
+Microsoft,Denmark,3,498,0.6
+Microsoft,Malaysia,3,498,0.6
+Microsoft,Switzerland,3,498,0.6
+Microsoft,Turkey,3,498,0.6
+Microsoft,Angola,2,498,0.4
+Microsoft,Chile,2,498,0.4
+Microsoft,Germany,2,498,0.4
+Microsoft,Taiwan,2,498,0.4
+Microsoft,Burkina Faso,1,498,0.2
+Microsoft,Colombia,1,498,0.2
+Microsoft,France,1,498,0.2
+Microsoft,Hong Kong,1,498,0.2
+Microsoft,Namibia,1,498,0.2
+Microsoft,New Zealand,1,498,0.2
+Microsoft,Philippines,1,498,0.2
+Microsoft,Poland,1,498,0.2
+Microsoft,Sweden,1,498,0.2

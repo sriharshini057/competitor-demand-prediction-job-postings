@@ -1,0 +1,361 @@
+company_name,skill,skill_category,posting_count,skill_data_available,skill_demand_pct
+Accenture,Python,Programming Languages,31,46,67.39
+Accenture,SQL,Programming Languages,20,46,43.48
+Accenture,Microsoft Azure,Cloud,14,46,30.43
+Accenture,AWS,Cloud,13,46,28.26
+Accenture,R,Programming Languages,13,46,28.26
+Accenture,C,Programming Languages,9,46,19.57
+Accenture,Apache Spark,Data Engineering,9,46,19.57
+Accenture,Power BI,Data Analysis,9,46,19.57
+Accenture,Hadoop,Data Engineering,8,46,17.39
+Accenture,Docker,Development & Tools,7,46,15.22
+Accenture,Google Cloud Platform,Cloud,7,46,15.22
+Accenture,Excel,Data Analysis,7,46,15.22
+Accenture,Java,Programming Languages,6,46,13.04
+Accenture,VBA,Programming,6,46,13.04
+Accenture,Scala,Programming Languages,5,46,10.87
+Accenture,Tableau,Data Analysis,5,46,10.87
+Accenture,MySQL,Databases,5,46,10.87
+Accenture,NumPy,Data Analysis,5,46,10.87
+Accenture,Pandas,Data Analysis,5,46,10.87
+Accenture,PowerPoint,Business Tools,4,46,8.7
+Accenture,Snowflake,Data Engineering,4,46,8.7
+Accenture,Scikit-learn,Machine Learning,4,46,8.7
+Accenture,Kafka,Data Engineering,3,46,6.52
+Accenture,SAS,Data Analysis & BI,3,46,6.52
+Accenture,Microsoft SQL Server,Databases,3,46,6.52
+Accenture,Git,Development & Tools,3,46,6.52
+Accenture,PySpark,Data Engineering,2,46,4.35
+Accenture,Databricks,Data Engineering,2,46,4.35
+Accenture,NoSQL,Databases,2,46,4.35
+Accenture,Terraform,Cloud & DevOps,2,46,4.35
+Accenture,BigQuery,Data Engineering,2,46,4.35
+Accenture,Qlik,Data Analysis & BI,2,46,4.35
+Accenture,IBM Cognos,Data Analysis & BI,2,46,4.35
+Accenture,JavaScript,Programming Languages,2,46,4.35
+Accenture,MongoDB,Databases,2,46,4.35
+Accenture,Flask,Development & Tools,2,46,4.35
+Accenture,Django,Other / Unclassified,2,46,4.35
+Accenture,Jenkins,Development & Tools,2,46,4.35
+Accenture,Amazon Redshift,Data Engineering,1,46,2.17
+Accenture,Oracle,Databases,1,46,2.17
+Accenture,Kubernetes,Development & Tools,1,46,2.17
+Accenture,TensorFlow,Machine Learning,1,46,2.17
+Accenture,SSIS,Data Engineering,1,46,2.17
+Accenture,SharePoint,Business Tools,1,46,2.17
+Accenture,Jira,Development & Tools,1,46,2.17
+Accenture,Matplotlib,Data Analysis,1,46,2.17
+Accenture,Microsoft Word,Business Tools,1,46,2.17
+Accenture,SPSS,Data Analysis & BI,1,46,2.17
+Accenture,Splunk,Other / Unclassified,1,46,2.17
+Accenture,Gitlab,Other / Unclassified,1,46,2.17
+Accenture,Looker,Other / Unclassified,1,46,2.17
+Accenture,Alteryx,Data Analysis & BI,1,46,2.17
+Accenture,SAP,Enterprise Tools,1,46,2.17
+Amazon,SQL,Programming Languages,89,114,78.07
+Amazon,AWS,Cloud,63,114,55.26
+Amazon,Python,Programming Languages,54,114,47.37
+Amazon,Amazon Redshift,Data Engineering,41,114,35.96
+Amazon,Tableau,Data Analysis,36,114,31.58
+Amazon,Java,Programming Languages,27,114,23.68
+Amazon,Excel,Data Analysis,26,114,22.81
+Amazon,R,Programming Languages,24,114,21.05
+Amazon,Apache Spark,Data Engineering,20,114,17.54
+Amazon,Hadoop,Data Engineering,19,114,16.67
+Amazon,Amazon DynamoDB,Databases,18,114,15.79
+Amazon,Scala,Programming Languages,17,114,14.91
+Amazon,Power BI,Data Analysis,15,114,13.16
+Amazon,Oracle,Databases,13,114,11.4
+Amazon,SAS,Data Analysis & BI,13,114,11.4
+Amazon,MATLAB,Programming,10,114,8.77
+Amazon,NoSQL,Databases,9,114,7.89
+Amazon,Airflow,Data Engineering,8,114,7.02
+Amazon,C++,Programming Languages,8,114,7.02
+Amazon,VBA,Programming,7,114,6.14
+Amazon,C#,Programming Languages,7,114,6.14
+Amazon,Ruby,Programming,7,114,6.14
+Amazon,Go,Programming Languages,6,114,5.26
+Amazon,MySQL,Databases,6,114,5.26
+Amazon,C,Programming Languages,5,114,4.39
+Amazon,Perl,Programming,5,114,4.39
+Amazon,SSIS,Data Engineering,5,114,4.39
+Amazon,PowerShell,Operating Systems & Scripting,4,114,3.51
+Amazon,Shell,Operating Systems & Scripting,4,114,3.51
+Amazon,Git,Development & Tools,4,114,3.51
+Amazon,Microsoft Word,Business Tools,4,114,3.51
+Amazon,PySpark,Data Engineering,3,114,2.63
+Amazon,HTML,Development & Tools,3,114,2.63
+Amazon,CSS,Development & Tools,3,114,2.63
+Amazon,JavaScript,Programming Languages,3,114,2.63
+Amazon,MongoDB,Databases,3,114,2.63
+Amazon,PostgreSQL,Databases,3,114,2.63
+Amazon,React,Development & Tools,3,114,2.63
+Amazon,Jquery,Other / Unclassified,3,114,2.63
+Amazon,Angular,Other / Unclassified,3,114,2.63
+Amazon,Node.Js,Other / Unclassified,3,114,2.63
+Amazon,Linux,Development & Tools,3,114,2.63
+Amazon,Docker,Development & Tools,3,114,2.63
+Amazon,Kubernetes,Development & Tools,3,114,2.63
+Amazon,Unix,Operating Systems & Scripting,3,114,2.63
+Amazon,TensorFlow,Machine Learning,2,114,1.75
+Amazon,PyTorch,Machine Learning,2,114,1.75
+Amazon,Apache MXNet,Machine Learning,2,114,1.75
+Amazon,IBM Cognos,Data Analysis & BI,2,114,1.75
+Amazon,Ms Access,Other / Unclassified,2,114,1.75
+Amazon,Windows,Operating Systems & Scripting,2,114,1.75
+Amazon,Keras,Machine Learning,1,114,0.88
+Amazon,Microsoft Azure,Cloud,1,114,0.88
+Amazon,Google Cloud Platform,Cloud,1,114,0.88
+Amazon,Express.js,Development & Tools,1,114,0.88
+Amazon,SAP,Enterprise Tools,1,114,0.88
+Amazon,SPSS,Data Analysis & BI,1,114,0.88
+Amazon,Terminal,Other / Unclassified,1,114,0.88
+Amazon,Colocation,Cloud Infrastructure,1,114,0.88
+Amazon,Outlook,Business Tools,1,114,0.88
+Deloitte,SQL,Programming Languages,89,143,62.24
+Deloitte,Python,Programming Languages,78,143,54.55
+Deloitte,Microsoft Azure,Cloud,64,143,44.76
+Deloitte,Excel,Data Analysis,51,143,35.66
+Deloitte,AWS,Cloud,47,143,32.87
+Deloitte,Tableau,Data Analysis,42,143,29.37
+Deloitte,Apache Spark,Data Engineering,36,143,25.17
+Deloitte,R,Programming Languages,27,143,18.88
+Deloitte,PowerPoint,Business Tools,25,143,17.48
+Deloitte,Git,Development & Tools,24,143,16.78
+Deloitte,Databricks,Data Engineering,24,143,16.78
+Deloitte,Hadoop,Data Engineering,22,143,15.38
+Deloitte,PyTorch,Machine Learning,20,143,13.99
+Deloitte,PySpark,Data Engineering,20,143,13.99
+Deloitte,TensorFlow,Machine Learning,18,143,12.59
+Deloitte,Power BI,Data Analysis,17,143,11.89
+Deloitte,Docker,Development & Tools,16,143,11.19
+Deloitte,SAS,Data Analysis & BI,16,143,11.19
+Deloitte,Google Cloud Platform,Cloud,15,143,10.49
+Deloitte,VBA,Programming,14,143,9.79
+Deloitte,Kubernetes,Development & Tools,14,143,9.79
+Deloitte,Amazon Redshift,Data Engineering,14,143,9.79
+Deloitte,Microsoft SQL Server,Databases,14,143,9.79
+Deloitte,NoSQL,Databases,13,143,9.09
+Deloitte,Kafka,Data Engineering,13,143,9.09
+Deloitte,NumPy,Data Analysis,12,143,8.39
+Deloitte,Pandas,Data Analysis,12,143,8.39
+Deloitte,Jira,Development & Tools,12,143,8.39
+Deloitte,Microsoft Word,Business Tools,11,143,7.69
+Deloitte,Java,Programming Languages,11,143,7.69
+Deloitte,BigQuery,Data Engineering,11,143,7.69
+Deloitte,Oracle,Databases,11,143,7.69
+Deloitte,Airflow,Data Engineering,11,143,7.69
+Deloitte,Snowflake,Data Engineering,11,143,7.69
+Deloitte,JavaScript,Programming Languages,10,143,6.99
+Deloitte,Linux,Development & Tools,10,143,6.99
+Deloitte,Scala,Programming Languages,10,143,6.99
+Deloitte,MySQL,Databases,10,143,6.99
+Deloitte,Keras,Machine Learning,9,143,6.29
+Deloitte,SAP,Enterprise Tools,8,143,5.59
+Deloitte,Visio,Business Tools,8,143,5.59
+Deloitte,Jenkins,Development & Tools,7,143,4.9
+Deloitte,Unix,Operating Systems & Scripting,7,143,4.9
+Deloitte,Terraform,Cloud & DevOps,7,143,4.9
+Deloitte,HTML,Development & Tools,7,143,4.9
+Deloitte,Windows,Operating Systems & Scripting,7,143,4.9
+Deloitte,SharePoint,Business Tools,7,143,4.9
+Deloitte,SSIS,Data Engineering,7,143,4.9
+Deloitte,Scikit-learn,Machine Learning,6,143,4.2
+Deloitte,Outlook,Business Tools,6,143,4.2
+Deloitte,GitHub,Development & Tools,5,143,3.5
+Deloitte,PostgreSQL,Databases,5,143,3.5
+Deloitte,Qlik,Data Analysis & BI,5,143,3.5
+Deloitte,C++,Programming Languages,4,143,2.8
+Deloitte,T-SQL,Databases,4,143,2.8
+Deloitte,Alteryx,Data Analysis & BI,4,143,2.8
+Deloitte,Apache MXNet,Machine Learning,4,143,2.8
+Deloitte,PowerShell,Operating Systems & Scripting,4,143,2.8
+Deloitte,Shell,Operating Systems & Scripting,3,143,2.1
+Deloitte,Looker,Other / Unclassified,3,143,2.1
+Deloitte,C,Programming Languages,3,143,2.1
+Deloitte,Ms Access,Other / Unclassified,3,143,2.1
+Deloitte,IBM Cognos,Data Analysis & BI,3,143,2.1
+Deloitte,SPSS,Data Analysis & BI,3,143,2.1
+Deloitte,MongoDB,Databases,3,143,2.1
+Deloitte,Macos,Other / Unclassified,3,143,2.1
+Deloitte,C#,Programming Languages,3,143,2.1
+Deloitte,Go,Programming Languages,2,143,1.4
+Deloitte,Matplotlib,Data Analysis,2,143,1.4
+Deloitte,No-Sql,Other / Unclassified,2,143,1.4
+Deloitte,Swift,Other / Unclassified,2,143,1.4
+Deloitte,Bitbucket,Other / Unclassified,2,143,1.4
+Deloitte,Svn,Other / Unclassified,2,143,1.4
+Deloitte,Crystal,Other / Unclassified,2,143,1.4
+Deloitte,Datarobot,Other / Unclassified,2,143,1.4
+Deloitte,Ansible,Other / Unclassified,2,143,1.4
+Deloitte,Elasticsearch,Databases,2,143,1.4
+Deloitte,Openstack,Other / Unclassified,2,143,1.4
+Deloitte,Splunk,Other / Unclassified,2,143,1.4
+Deloitte,Gdpr,Other / Unclassified,2,143,1.4
+Deloitte,Bash,Operating Systems & Scripting,1,143,0.7
+Deloitte,Cassandra,Databases,1,143,0.7
+Deloitte,IBM Db2,Databases,1,143,0.7
+Deloitte,Nltk,Other / Unclassified,1,143,0.7
+Deloitte,CSS,Development & Tools,1,143,0.7
+Deloitte,Jquery,Other / Unclassified,1,143,0.7
+Deloitte,Opencv,Other / Unclassified,1,143,0.7
+Deloitte,Flask,Development & Tools,1,143,0.7
+Deloitte,Perl,Programming,1,143,0.7
+Deloitte,Ruby,Programming,1,143,0.7
+Deloitte,Confluence,Development & Tools,1,143,0.7
+Deloitte,Aurora,Other / Unclassified,1,143,0.7
+Deloitte,Yarn,Other / Unclassified,1,143,0.7
+Deloitte,DAX,Data Analysis,1,143,0.7
+Deloitte,Asp.Net,Other / Unclassified,1,143,0.7
+IBM,IBM Cloud,Cloud,297,344,86.34
+IBM,SQL,Programming Languages,197,344,57.27
+IBM,Python,Programming Languages,167,344,48.55
+IBM,Apache Spark,Data Engineering,122,344,35.47
+IBM,Hadoop,Data Engineering,109,344,31.69
+IBM,Java,Programming Languages,98,344,28.49
+IBM,Microsoft Azure,Cloud,77,344,22.38
+IBM,Unix,Operating Systems & Scripting,76,344,22.09
+IBM,Scala,Programming Languages,75,344,21.8
+IBM,AWS,Cloud,71,344,20.64
+IBM,Shell,Operating Systems & Scripting,60,344,17.44
+IBM,PySpark,Data Engineering,55,344,15.99
+IBM,Databricks,Data Engineering,49,344,14.24
+IBM,NoSQL,Databases,47,344,13.66
+IBM,Express.js,Development & Tools,35,344,10.17
+IBM,Kafka,Data Engineering,35,344,10.17
+IBM,Tableau,Data Analysis,28,344,8.14
+IBM,Cassandra,Databases,26,344,7.56
+IBM,TensorFlow,Machine Learning,26,344,7.56
+IBM,Snowflake,Data Engineering,25,344,7.27
+IBM,PyTorch,Machine Learning,25,344,7.27
+IBM,Oracle,Databases,23,344,6.69
+IBM,R,Programming Languages,22,344,6.4
+IBM,Google Cloud Platform,Cloud,22,344,6.4
+IBM,Airflow,Data Engineering,20,344,5.81
+IBM,Keras,Machine Learning,18,344,5.23
+IBM,Git,Development & Tools,16,344,4.65
+IBM,IBM Watson,Artificial Intelligence,13,344,3.78
+IBM,JavaScript,Programming Languages,13,344,3.78
+IBM,Power BI,Data Analysis,12,344,3.49
+IBM,IBM Db2,Databases,12,344,3.49
+IBM,Angular,Other / Unclassified,12,344,3.49
+IBM,BigQuery,Data Engineering,12,344,3.49
+IBM,Microsoft SQL Server,Databases,10,344,2.91
+IBM,Jupyter,Development & Tools,10,344,2.91
+IBM,Docker,Development & Tools,10,344,2.91
+IBM,Elasticsearch,Databases,9,344,2.62
+IBM,Pandas,Data Analysis,9,344,2.62
+IBM,Scikit-learn,Machine Learning,9,344,2.62
+IBM,C#,Programming Languages,9,344,2.62
+IBM,GitHub,Development & Tools,9,344,2.62
+IBM,IBM Cognos,Data Analysis & BI,9,344,2.62
+IBM,Linux,Development & Tools,8,344,2.33
+IBM,Windows,Operating Systems & Scripting,8,344,2.33
+IBM,Jenkins,Development & Tools,8,344,2.33
+IBM,SAP,Enterprise Tools,8,344,2.33
+IBM,NumPy,Data Analysis,7,344,2.03
+IBM,Spring,Other / Unclassified,7,344,2.03
+IBM,Amazon DynamoDB,Databases,7,344,2.03
+IBM,MongoDB,Databases,6,344,1.74
+IBM,Jira,Development & Tools,6,344,1.74
+IBM,T-SQL,Databases,6,344,1.74
+IBM,Perl,Programming,5,344,1.45
+IBM,Splunk,Other / Unclassified,5,344,1.45
+IBM,Go,Programming Languages,5,344,1.45
+IBM,SharePoint,Business Tools,5,344,1.45
+IBM,Amazon Redshift,Data Engineering,5,344,1.45
+IBM,MATLAB,Programming,4,344,1.16
+IBM,C,Programming Languages,4,344,1.16
+IBM,Kubernetes,Development & Tools,4,344,1.16
+IBM,Node.Js,Other / Unclassified,4,344,1.16
+IBM,Drupal,Other / Unclassified,4,344,1.16
+IBM,React,Development & Tools,4,344,1.16
+IBM,C++,Programming Languages,3,344,0.87
+IBM,Opencv,Other / Unclassified,3,344,0.87
+IBM,Excel,Data Analysis,3,344,0.87
+IBM,Mariadb,Other / Unclassified,3,344,0.87
+IBM,MySQL,Databases,3,344,0.87
+IBM,Yarn,Other / Unclassified,3,344,0.87
+IBM,TypeScript,Programming Languages,3,344,0.87
+IBM,Fortran,Other / Unclassified,2,344,0.58
+IBM,Pascal,Other / Unclassified,2,344,0.58
+IBM,SAS,Data Analysis & BI,2,344,0.58
+IBM,Lisp,Other / Unclassified,2,344,0.58
+IBM,SPSS,Data Analysis & BI,2,344,0.58
+IBM,Asp.Net,Other / Unclassified,2,344,0.58
+IBM,SSIS,Data Engineering,2,344,0.58
+IBM,Ssrs,Other / Unclassified,2,344,0.58
+IBM,Terraform,Cloud & DevOps,2,344,0.58
+IBM,Flask,Development & Tools,1,344,0.29
+IBM,Couchbase,Other / Unclassified,1,344,0.29
+IBM,Bash,Operating Systems & Scripting,1,344,0.29
+IBM,Ansible,Other / Unclassified,1,344,0.29
+IBM,PowerPoint,Business Tools,1,344,0.29
+IBM,Wire,Other / Unclassified,1,344,0.29
+IBM,Confluence,Development & Tools,1,344,0.29
+IBM,PowerShell,Operating Systems & Scripting,1,344,0.29
+IBM,HTML,Development & Tools,1,344,0.29
+IBM,CSS,Development & Tools,1,344,0.29
+IBM,Hugging Face,Other / Unclassified,1,344,0.29
+IBM,PostgreSQL,Databases,1,344,0.29
+IBM,Nltk,Other / Unclassified,1,344,0.29
+IBM,Qlik,Data Analysis & BI,1,344,0.29
+IBM,MicroStrategy,Data Analysis & BI,1,344,0.29
+IBM,Looker,Other / Unclassified,1,344,0.29
+Microsoft,Microsoft Azure,Cloud,49,84,58.33
+Microsoft,SQL,Programming Languages,46,84,54.76
+Microsoft,Python,Programming Languages,40,84,47.62
+Microsoft,Apache Spark,Data Engineering,32,84,38.1
+Microsoft,C#,Programming Languages,30,84,35.71
+Microsoft,Databricks,Data Engineering,21,84,25.0
+Microsoft,Hadoop,Data Engineering,19,84,22.62
+Microsoft,Power BI,Data Analysis,19,84,22.62
+Microsoft,C++,Programming Languages,18,84,21.43
+Microsoft,R,Programming Languages,16,84,19.05
+Microsoft,Java,Programming Languages,15,84,17.86
+Microsoft,PyTorch,Machine Learning,12,84,14.29
+Microsoft,Windows,Operating Systems & Scripting,10,84,11.9
+Microsoft,Excel,Data Analysis,9,84,10.71
+Microsoft,TensorFlow,Machine Learning,8,84,9.52
+Microsoft,Perl,Programming,7,84,8.33
+Microsoft,Pandas,Data Analysis,7,84,8.33
+Microsoft,JavaScript,Programming Languages,7,84,8.33
+Microsoft,Scala,Programming Languages,6,84,7.14
+Microsoft,MATLAB,Programming,5,84,5.95
+Microsoft,AWS,Cloud,5,84,5.95
+Microsoft,SAP,Enterprise Tools,5,84,5.95
+Microsoft,C,Programming Languages,5,84,5.95
+Microsoft,Google Cloud Platform,Cloud,4,84,4.76
+Microsoft,Kafka,Data Engineering,4,84,4.76
+Microsoft,Tableau,Data Analysis,4,84,4.76
+Microsoft,Microsoft Word,Business Tools,4,84,4.76
+Microsoft,DAX,Data Analysis,4,84,4.76
+Microsoft,Microsoft Teams,Other / Unclassified,4,84,4.76
+Microsoft,PySpark,Data Engineering,3,84,3.57
+Microsoft,T-SQL,Databases,3,84,3.57
+Microsoft,Express.js,Development & Tools,3,84,3.57
+Microsoft,PowerPoint,Business Tools,3,84,3.57
+Microsoft,Linux,Development & Tools,3,84,3.57
+Microsoft,PowerShell,Operating Systems & Scripting,3,84,3.57
+Microsoft,NumPy,Data Analysis,3,84,3.57
+Microsoft,Redis,Databases,2,84,2.38
+Microsoft,PostgreSQL,Databases,2,84,2.38
+Microsoft,Keras,Machine Learning,2,84,2.38
+Microsoft,NoSQL,Databases,2,84,2.38
+Microsoft,Git,Development & Tools,2,84,2.38
+Microsoft,Outlook,Business Tools,1,84,1.19
+Microsoft,SharePoint,Business Tools,1,84,1.19
+Microsoft,MySQL,Databases,1,84,1.19
+Microsoft,Go,Programming Languages,1,84,1.19
+Microsoft,MongoDB,Databases,1,84,1.19
+Microsoft,TypeScript,Programming Languages,1,84,1.19
+Microsoft,Angular,Other / Unclassified,1,84,1.19
+Microsoft,Jupyter,Development & Tools,1,84,1.19
+Microsoft,Splunk,Other / Unclassified,1,84,1.19
+Microsoft,GitHub,Development & Tools,1,84,1.19
+Microsoft,Microsoft SQL Server,Databases,1,84,1.19
+Microsoft,Ruby,Programming,1,84,1.19
+Microsoft,React,Development & Tools,1,84,1.19
+Microsoft,Selenium,Other / Unclassified,1,84,1.19
+Microsoft,Graphql,Other / Unclassified,1,84,1.19
+Microsoft,Terraform,Cloud & DevOps,1,84,1.19

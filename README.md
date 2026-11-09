@@ -4,10 +4,13 @@
 This project aims to analyze and forecast competitor hiring demand and skill requirements using publicly available job posting data. By tracking job listing frequencies, extracting technical and soft skill sets, and modeling hiring patterns over time, the system enables organizations to anticipate competitor talent expansion, technological pivots, and workforce capacity trends.
 
 ### Target Scope
-- **Target Company**: **Microsoft ONLY** (`company_name == "Microsoft"`)
-- **Entity Definition**: Strict corporate entity matching; recruitment agencies, third-party staffing firms, and non-canonical subsidiaries are excluded.
-- **Dataset Scale**: Exactly 498 validated Microsoft job postings spanning the full 2023 calendar year (52 out of 52 active ISO weeks).
 
+- **Core Project Scope (Sprints 1–7)**: Microsoft-only analysis (`company_name == "Microsoft"`), covering 498 validated job postings across 52 active ISO weeks in 2023.
+- **Competitor Benchmarking (Sprint 8)**: Extended comparison of Microsoft, Amazon, IBM, Accenture, and Deloitte using the original 2023 dataset.
+- **Entity Definition**: Strict company-name matching for the five selected companies.
+- **Dataset Source**: Luke Barousse Data Jobs dataset.
+- **Selected Competitor Postings**: 6,450 records across the five companies.
+- **Geographical Analysis**: Global comparison and a separate India-focused analysis.
 ---
 
 ## Technology Stack
@@ -149,8 +152,7 @@ The project includes unit tests for data collection, filtering, cleaning, salary
 python -m pytest -v
 ```
 
-All 169 automated tests pass across the project, including database tests in `tests/test_database.py`.
-
+All 194 automated tests pass across the project, including database, feature engineering, exploratory analysis, and competitor comparison tests.
 ---
 
 ## Project Stages & 12-Sprint Roadmap
@@ -162,7 +164,7 @@ All 169 automated tests pass across the project, including database tests in `te
 5. **Sprint 5 — Database Storage & SQL Analysis**: Relational SQLite schema design, normalized data storage, indexing, and SQL-based Microsoft skill-demand and hiring trend analysis (**Complete**).
 6. **Sprint 6 — Feature Engineering**: Creating time-lag features, rolling averages, company-skill frequency matrices, and hiring velocity indicators (**Complete**).
 7. **Sprint 7 — Exploratory Analysis and Demand Insights**: Analyzing job-role demand, geographic distribution, work arrangements, employment types, salary distribution, skill demand, and weekly skill trends using Pandas, Matplotlib, and Seaborn (**Complete**).
-8. **Sprint 8 — Competitor Comparison**: Benchmarking competitor profiles, tech stack overlap, and talent acquisition priorities (*Pending*).
+8. **Sprint 8 — Competitor Comparison**: Benchmarking five selected companies using skill demand, job-role distribution, geographical distribution, and India-focused analysis (**Complete**).
 9. **Sprint 9 — Demand Forecasting**: Building time-series and regression models (via scikit-learn) to predict future hiring demand by competitor and role (*Pending*).
 10. **Sprint 10 — Company Similarity Scoring**: Computing vector similarity (e.g., Cosine Similarity) and clustering competitor profiles based on skill footprint and hiring distributions (*Pending*).
 11. **Sprint 11 — Reporting / Dashboard**: Developing visual summaries, Matplotlib charts, and an interactive Streamlit dashboard (*Pending*).
@@ -243,8 +245,8 @@ Competitor Demand Prediction Using Job Postings/
 - **Sprint 7 (Exploratory Analysis and Demand Insights)**: Completed and Validated (`reports/sprint_07/demand_insights.md`).
 - **Database**: SQLite with 8 application tables and 498 Microsoft job postings.
 - **SQL Analysis**: 20/20 queries passed validation.
-- **Test Suite**: 183/183 tests passing (`python -m pytest -q`).
-
+- **Test Suite**: 194/194 tests passing (`python -m pytest -v`).
+- **Sprint 8 (Competitor Comparison)**: Completed and validated (`reports/sprint_08_report.md`).
 ## Sprint 6 Deliverables
 
 - `src/features/feature_builder.py` - Feature engineering implementation.
@@ -263,3 +265,13 @@ Competitor Demand Prediction Using Job Postings/
 - `reports/sprint_07/demand_insights.md` - Sprint 7 demand insights report.
 
 **Sprint 7 Validation:** Analysis outputs verified against the report, 260 weekly skill-trend records generated, and all 183 project tests passing.
+
+## Sprint 8 Deliverables
+
+- `src/analysis/competitor.py` - Competitor data loading, skill-demand analysis, role comparison, and country comparison.
+- `src/analysis/competitor_visualizer.py` - Generates global and India-focused comparison charts.
+- `tests/test_competitor.py` - 11 automated competitor-analysis tests.
+- `outputs/sprint_08/` - 7 CSV analysis outputs and 5 PNG visualizations.
+- `reports/sprint_08_report.md` - Sprint 8 implementation, findings, and validation report.
+
+**Sprint 8 Validation:** 6,450 selected company postings analyzed, including 816 India postings. Five visualizations and seven CSV outputs generated. All 194 project tests passing.

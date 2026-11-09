@@ -1,0 +1,51 @@
+company_name,job_title_short,posting_count,company_total_postings,role_demand_pct
+Accenture,Data Engineer,480,1699,28.25
+Accenture,Data Scientist,435,1699,25.6
+Accenture,Data Analyst,370,1699,21.78
+Accenture,Senior Data Analyst,115,1699,6.77
+Accenture,Business Analyst,95,1699,5.59
+Accenture,Software Engineer,71,1699,4.18
+Accenture,Cloud Engineer,52,1699,3.06
+Accenture,Machine Learning Engineer,32,1699,1.88
+Accenture,Senior Data Scientist,25,1699,1.47
+Accenture,Senior Data Engineer,24,1699,1.41
+Amazon,Data Engineer,444,1270,34.96
+Amazon,Data Scientist,181,1270,14.25
+Amazon,Business Analyst,152,1270,11.97
+Amazon,Data Analyst,149,1270,11.73
+Amazon,Software Engineer,110,1270,8.66
+Amazon,Senior Data Scientist,94,1270,7.4
+Amazon,Cloud Engineer,49,1270,3.86
+Amazon,Senior Data Engineer,43,1270,3.39
+Amazon,Senior Data Analyst,26,1270,2.05
+Amazon,Machine Learning Engineer,22,1270,1.73
+Deloitte,Data Scientist,581,1694,34.3
+Deloitte,Data Engineer,388,1694,22.9
+Deloitte,Data Analyst,298,1694,17.59
+Deloitte,Senior Data Analyst,126,1694,7.44
+Deloitte,Senior Data Scientist,122,1694,7.2
+Deloitte,Senior Data Engineer,85,1694,5.02
+Deloitte,Business Analyst,41,1694,2.42
+Deloitte,Software Engineer,23,1694,1.36
+Deloitte,Cloud Engineer,20,1694,1.18
+Deloitte,Machine Learning Engineer,10,1694,0.59
+IBM,Data Engineer,730,1289,56.63
+IBM,Data Scientist,318,1289,24.67
+IBM,Data Analyst,81,1289,6.28
+IBM,Software Engineer,40,1289,3.1
+IBM,Senior Data Engineer,30,1289,2.33
+IBM,Senior Data Scientist,30,1289,2.33
+IBM,Business Analyst,23,1289,1.78
+IBM,Machine Learning Engineer,16,1289,1.24
+IBM,Cloud Engineer,11,1289,0.85
+IBM,Senior Data Analyst,10,1289,0.78
+Microsoft,Software Engineer,173,498,34.74
+Microsoft,Data Scientist,135,498,27.11
+Microsoft,Senior Data Scientist,57,498,11.45
+Microsoft,Data Engineer,44,498,8.84
+Microsoft,Senior Data Engineer,34,498,6.83
+Microsoft,Cloud Engineer,15,498,3.01
+Microsoft,Business Analyst,13,498,2.61
+Microsoft,Data Analyst,12,498,2.41
+Microsoft,Machine Learning Engineer,10,498,2.01
+Microsoft,Senior Data Analyst,5,498,1.0
