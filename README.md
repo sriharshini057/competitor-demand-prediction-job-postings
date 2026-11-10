@@ -152,7 +152,7 @@ The project includes unit tests for data collection, filtering, cleaning, salary
 python -m pytest -v
 ```
 
-All 194 automated tests pass across the project, including database, feature engineering, exploratory analysis, and competitor comparison tests.
+All 199 automated tests pass across the project, including database, feature engineering, exploratory analysis, competitor comparison, and demand forecasting tests.
 ---
 
 ## Project Stages & 12-Sprint Roadmap
@@ -165,7 +165,7 @@ All 194 automated tests pass across the project, including database, feature eng
 6. **Sprint 6 — Feature Engineering**: Creating time-lag features, rolling averages, company-skill frequency matrices, and hiring velocity indicators (**Complete**).
 7. **Sprint 7 — Exploratory Analysis and Demand Insights**: Analyzing job-role demand, geographic distribution, work arrangements, employment types, salary distribution, skill demand, and weekly skill trends using Pandas, Matplotlib, and Seaborn (**Complete**).
 8. **Sprint 8 — Competitor Comparison**: Benchmarking five selected companies using skill demand, job-role distribution, geographical distribution, and India-focused analysis (**Complete**).
-9. **Sprint 9 — Demand Forecasting**: Building time-series and regression models (via scikit-learn) to predict future hiring demand by competitor and role (*Pending*).
+9. **Sprint 9 — Demand Forecasting**: Implementing Moving Average, Linear Regression, and Ridge Regression models to forecast weekly Microsoft job-posting demand using chronological validation and evaluation metrics (**Complete**).
 10. **Sprint 10 — Company Similarity Scoring**: Computing vector similarity (e.g., Cosine Similarity) and clustering competitor profiles based on skill footprint and hiring distributions (*Pending*).
 11. **Sprint 11 — Reporting / Dashboard**: Developing visual summaries, Matplotlib charts, and an interactive Streamlit dashboard (*Pending*).
 12. **Sprint 12 — Integration & Final Review**: End-to-end pipeline validation, performance tuning, and executive presentation (*Pending*).
@@ -209,9 +209,9 @@ Competitor Demand Prediction Using Job Postings/
 │   ├── skills/               # Stage 4: Skill extraction
 │   ├── features/             # Stage 5: Feature engineering
 │   ├── analysis/             # Stages 6 & 7: Trend analysis & competitor comparison
-│   ├── modeling/             # Stages 8 & 9: Demand forecasting & company similarity
+│   ├── modeling/             # Sprint 9: Demand forecasting; Sprint 10: Company similarity
 │   └── database/             # Database connection & querying utilities
-├── dashboard/                # Stage 10: Interactive reporting dashboard
+├── dashboard/                # Sprint 11: Interactive reporting dashboard
 ├── notebooks/                # Exploratory analysis & experiments
 ├── reports/                  # Generated visual reports and summaries
 │   ├── dataset_validation_report.md
@@ -219,9 +219,13 @@ Competitor Demand Prediction Using Job Postings/
 │   ├── sprint_03_report.md
 │   ├── sprint_04_report.md
 │   ├── sprint_05_report.md
+│   ├── sprint_06_report.md
+│   ├── sprint_08_report.md
+│   ├── sprint_09_report.md
 │   └── figures/
 ├── tests/                    # Automated test suite
 │   ├── test_collector.py
+│   ├── test_forecasting.py
 │   ├── test_cleaner.py
 │   ├── test_nlp_pipeline.py
 │   ├── test_ner_extractor.py
@@ -245,8 +249,9 @@ Competitor Demand Prediction Using Job Postings/
 - **Sprint 7 (Exploratory Analysis and Demand Insights)**: Completed and Validated (`reports/sprint_07/demand_insights.md`).
 - **Database**: SQLite with 8 application tables and 498 Microsoft job postings.
 - **SQL Analysis**: 20/20 queries passed validation.
-- **Test Suite**: 194/194 tests passing (`python -m pytest -v`).
+- **Test Suite**: 199/199 tests passing (`python -m pytest -v`).
 - **Sprint 8 (Competitor Comparison)**: Completed and validated (`reports/sprint_08_report.md`).
+- **Sprint 9 (Demand Forecasting)**: Completed and validated (`reports/sprint_09_report.md`).
 ## Sprint 6 Deliverables
 
 - `src/features/feature_builder.py` - Feature engineering implementation.
@@ -274,4 +279,19 @@ Competitor Demand Prediction Using Job Postings/
 - `outputs/sprint_08/` - 7 CSV analysis outputs and 5 PNG visualizations.
 - `reports/sprint_08_report.md` - Sprint 8 implementation, findings, and validation report.
 
-**Sprint 8 Validation:** 6,450 selected company postings analyzed, including 816 India postings. Five visualizations and seven CSV outputs generated. All 194 project tests passing.
+**Sprint 8 Validation:** 6,450 selected company postings analyzed, including 816 India postings. Five visualizations and seven CSV outputs generated. All 199 project tests passing.
+
+## Sprint 9 Deliverables
+
+- `src/modeling/forecasting.py` - Weekly demand forecasting implementation.
+- `tests/test_forecasting.py` - 5 automated forecasting tests.
+- `outputs/sprint_09/model_comparison.csv` - Evaluation metrics for the three forecasting models.
+- `outputs/sprint_09/future_demand_forecast.csv` - Four-week forecasts from all three models.
+- `outputs/sprint_09/model_comparison.png` - Model evaluation comparison visualization.
+- `outputs/sprint_09/future_demand_forecast.png` - Historical demand and future forecast visualization.
+- `reports/sprint_09_report.md` - Sprint 9 implementation, results, and limitations.
+
+**Sprint 9 Validation:** 52 weekly Microsoft demand observations analyzed. Three forecasting approaches evaluated using chronological validation. Moving Average achieved the lowest MAE (5.050) and RMSE (6.131). All 199 project tests passed.
+
+**Forecasting limitation:** Forecasts are illustrative extrapolations from 2023 historical job postings and should not be interpreted as current hiring predictions.
+
