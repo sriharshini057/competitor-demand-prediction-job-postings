@@ -1,0 +1,11 @@
+company_1,company_2,shared_skill_count,union_skill_count,jaccard_similarity
+Accenture,Amazon,89,151,0.5894
+Accenture,Deloitte,124,159,0.7799
+Accenture,IBM,115,159,0.7233
+Accenture,Microsoft,85,142,0.5986
+Amazon,Deloitte,92,157,0.586
+Amazon,IBM,90,150,0.6
+Amazon,Microsoft,71,122,0.582
+Deloitte,IBM,120,163,0.7362
+Deloitte,Microsoft,83,153,0.5425
+IBM,Microsoft,81,146,0.5548
